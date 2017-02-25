@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% block body %}
+  <ul class=entries>
+  {% for entry in parties %}
+    <li><b>{{ entry.name }}</b> has {{ entry.points }} points!
+  {% else %}
+    <li><em>Unbelievable.  No participants here so far</em>
+  {% endfor %}
+  </ul>
+{% endblock %}

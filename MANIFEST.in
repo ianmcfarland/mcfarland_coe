@@ -1,0 +1,3 @@
+graft mcfarland_coe/templates
+graft mcfarland_coe/static
+include mcfarland_coe/schema.sql
